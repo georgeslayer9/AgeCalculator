@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.george.agecalculator.MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorNegro"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtSubtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30sp"
+        android:textColor="@color/colorNegro"
+        android:text="@string/subtitulo"
+        />
+
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton"
+        android:layout_gravity="center"
+        android:theme="@style/MyButton"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <TextView
+        android:id="@+id/txtEdadEvaluada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:textColor="@color/colorNegro"
+        android:text=""
+        />
+
+
+    <TextView
+        android:id="@+id/txtDiferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"
+        android:textColor="@color/colorNegro"
+        android:text=""
+        />
+
+
+</LinearLayout>
